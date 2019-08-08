@@ -1,0 +1,27 @@
+@media screen and (max-width: 600px) {
+  main {
+    .container {
+      flex-direction: column;
+
+      .img-box {
+        width: 400px;
+      }
+
+      .text-btn-box {
+        padding: 20px;
+
+        h1,
+        p {
+          text-align: center;
+        }
+      }
+    }
+  }
+
+  footer {
+
+    img {
+      height: 60px;
+    }
+  }
+}

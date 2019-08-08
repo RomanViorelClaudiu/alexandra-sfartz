@@ -1,0 +1,22 @@
+@media screen and (max-width: 600px) {
+  main {
+    grid-template-columns: 200px;
+    width: 85%;
+
+    .box3 img {
+      height: 250px;
+    }
+  }
+
+  footer {
+    .social-network-icons {
+      img {
+        height: 60px;
+      }
+    }
+
+    copyright {
+      font-size: 14px;
+    }
+  }
+}

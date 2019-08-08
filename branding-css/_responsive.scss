@@ -1,0 +1,28 @@
+@media only screen and (max-width: 600px) {
+  section {
+    .gallery {
+      flex-direction: column;
+
+      img {
+        display: none;
+      }
+
+      h1 {
+        display: initial;
+        text-align: center;
+      }
+    }
+  }
+
+  footer {
+    .social-network-icons {
+      img {
+        height: 60px;
+      }
+    }
+
+    copyright {
+      font-size: 14px;
+    }
+  }
+}

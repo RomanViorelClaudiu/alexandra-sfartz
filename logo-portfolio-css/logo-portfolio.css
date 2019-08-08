@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Righteous', cursive;
+}
+
+.title-text {
+  display: flexbox;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: 'Lobster Two', Helvetica, sans-serif;
+  margin: 50px;
+}
+
+.title-text h1,
+.title-text p {
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.title-text p {
+  font-size: 20px;
+}
+
+main {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 300px 300px 300px;
+      grid-template-columns: 300px 300px 300px;
+  grid-gap: 10px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main .box3 img {
+  height: 300px;
+  padding: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+  -webkit-transition: opacity 1s, -webkit-transform 1s;
+  transition: opacity 1s, -webkit-transform 1s;
+  transition: transform 1s, opacity 1s;
+  transition: transform 1s, opacity 1s, -webkit-transform 1s;
+  -webkit-box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.5);
+          box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.5);
+  z-index: -1;
+  cursor: pointer;
+}
+
+main .box3 img:hover {
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#ffffff), color-stop(#ecf2f9), to(#9fbfdf));
+  background-image: linear-gradient(#ffffff, #ecf2f9, #9fbfdf);
+}
+
+@media screen and (max-width: 600px) {
+  main {
+    -ms-grid-columns: 200px;
+        grid-template-columns: 200px;
+    width: 85%;
+  }
+  main .box3 img {
+    height: 250px;
+  }
+  footer .social-network-icons img {
+    height: 60px;
+  }
+  footer copyright {
+    font-size: 14px;
+  }
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+footer img {
+  height: 90px;
+  -webkit-transition: -webkit-transform 1s;
+  transition: -webkit-transform 1s;
+  transition: transform 1s;
+  transition: transform 1s, -webkit-transform 1s;
+}
+
+footer img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+/*# sourceMappingURL=logo-portfolio.css.map */

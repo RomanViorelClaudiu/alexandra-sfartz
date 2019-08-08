@@ -1,0 +1,47 @@
+.box-center {
+  position: relative;
+  top: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Righteous', cursive;
+
+  .box {
+    height: 400px;
+    width: 400px;
+    border: 2px solid black;
+    box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    img {
+      height: 150px;
+      transition: transform 1s;
+
+      &:hover {
+        transform: scale(1.1);
+      }
+    }
+
+    h1 {
+      font-size: 40px;
+      margin-bottom: 15px;
+    }
+
+    p {
+      font-size: 32px;
+    }
+
+    .button img {
+      height: 100px;
+      cursor: pointer;
+      transition: transform 1s;
+
+      &:hover {
+        transform: scale(1.1);
+      }
+    }
+  }
+}

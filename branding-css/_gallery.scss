@@ -1,0 +1,20 @@
+section {
+  .gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+
+    img {
+      height: 450px;
+      padding: 5px;
+      margin-left: 10px;
+      margin-right: 10px;
+      box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+    }
+
+    h1 {
+      display: none;
+    }
+  }
+}

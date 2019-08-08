@@ -1,0 +1,15 @@
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  img {
+    height: 80px;
+    transition: transform 1s;
+
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+}

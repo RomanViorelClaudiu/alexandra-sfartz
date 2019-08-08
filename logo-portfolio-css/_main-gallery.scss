@@ -1,0 +1,22 @@
+main {
+  display: grid;
+  grid-template-columns: 300px 300px 300px;
+  grid-gap: 10px;
+  justify-content: center;
+
+  .box3 img {
+    height: 300px;
+    padding: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    transition: transform 1s, opacity 1s;
+    box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.5);
+    z-index: -1;
+    cursor: pointer;
+
+    &:hover {
+      transform: scale(0.95);
+      background-image: linear-gradient(#ffffff, #ecf2f9, #9fbfdf);
+    }
+  }
+}

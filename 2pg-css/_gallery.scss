@@ -1,0 +1,24 @@
+section {
+  margin-top: 95px;
+
+  .gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+    img {
+      height: 300px;
+      padding: 5px;
+      margin-left: 10px;
+      margin-right: 10px;
+      transition: transform 1s, opacity 1s;
+      box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.5);
+
+      &:hover {
+        transform: scale(0.95);
+        background-image: linear-gradient(#ffffff, #ecf2f9, #9fbfdf);
+      }
+    }
+  }
+}

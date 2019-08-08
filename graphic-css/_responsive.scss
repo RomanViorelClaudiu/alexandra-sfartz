@@ -1,0 +1,21 @@
+@media screen and (max-width: 600px) {
+  .row {
+    .column {
+      float: left;
+      width: 90%;
+      margin: 30px;
+    }
+  }
+
+  footer {
+    .social-network-icons {
+      img {
+        height: 60px;
+      }
+    }
+
+    copyright {
+      font-size: 14px;
+    }
+  }
+}

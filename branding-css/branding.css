@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Righteous', cursive;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+footer img {
+  height: 100px;
+  -webkit-transition: -webkit-transform 1s;
+  transition: -webkit-transform 1s;
+  transition: transform 1s;
+  transition: transform 1s, -webkit-transform 1s;
+}
+
+footer img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+section .gallery {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 30px;
+}
+
+section .gallery img {
+  height: 450px;
+  padding: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+  -webkit-box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+}
+
+section .gallery h1 {
+  display: none;
+}
+
+@media only screen and (max-width: 600px) {
+  section .gallery {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  section .gallery img {
+    display: none;
+  }
+  section .gallery h1 {
+    display: initial;
+    text-align: center;
+  }
+  footer .social-network-icons img {
+    height: 60px;
+  }
+  footer copyright {
+    font-size: 14px;
+  }
+}
+/*# sourceMappingURL=branding.css.map */
