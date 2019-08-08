@@ -1,0 +1,20 @@
+.title-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Lobster Two', Helvetica, sans-serif;
+  margin: 30px;
+  flex-direction: column;
+
+  h1,
+  p {
+    text-align: center;
+    margin: 20px;
+  }
+
+  p {
+    font-size: 20px;
+    width: 50%;
+    margin: 20px;
+  }
+}

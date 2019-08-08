@@ -1,0 +1,52 @@
+@media screen and (max-width: 768px) {
+  nav {
+    height: 150px;
+
+  }
+
+  .nav-links {
+    position: fixed;
+    right: 0px;
+    height: 80vh;
+    top: 20vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    transform: translateX(100%);
+    transition: transform 0.5s ease-in;
+
+    li {
+      opacity: 0;
+
+    }
+  }
+
+  .nav-img {
+    display: none;
+  }
+
+  .hamburger {
+    display: block;
+    position: relative;
+    top: 50px;
+  }
+}
+
+.nav-active {
+  transform: translateX(0%);
+
+}
+
+@keyframes navLinkFade {
+  from {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}

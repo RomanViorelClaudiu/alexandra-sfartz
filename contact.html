@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>sfartz alexandra</title>
+  <!-- browser icon -->
+  <link rel="icon" type="image/png" href="./img/1x/logo-mic_1.png" />
+  <!-- navigation css link -->
+  <link rel="stylesheet" href="./navbar responsive css/style-nav.css" />
+  <!-- css link for particles -->
+  <link rel="stylesheet" href="./css/style.css" />
+  <!-- css link -->
+  <link rel="stylesheet" href="./contact-css/contact.css" />
+  <!-- font rightous -->
+  <link href="https://fonts.googleapis.com/css?family=Righteous&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <!-- particles.js -->
+  <div id="particles-js"></div>
+  <!-- end particles.js -->
+  <!-- navigation bar -->
+  <nav>
+    <ul class="nav-links">
+      <li><a href="./index.html">Home</a></li>
+      <li><a href="./2pg-hamburger.html">Portfolio</a></li>
+      <div class="logo">
+        <a href="./index.html"><img src="./img/1x/logo-sfa.png" alt="logo-sfartz-alexandra" /></a>
+      </div>
+      <li><a href="./about-me.html">About me</a></li>
+      <li><a href="./contact.html">Contact</a></li>
+    </ul>
+    <div class="hamburger">
+      <div class="line1"></div>
+      <div class="line2"></div>
+      <div class="line3"></div>
+    </div>
+  </nav>
+  <!-- end navigation bar -->
+  <!-- section contact form -->
+  <section>
+    <div class="contact">
+      <form action="https://formspree.io/sfartz.alexandra@yahoo.com" method="POST">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name.." />
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name.." />
+        <label for="email"> Email</label>
+        <input type="text" id="email" name="email" placeholder="john@example.com" />
+        <label for="country">Country</label>
+        <select id="country" name="country">
+          <option value="europe">Europe</option>
+          <option value="usa">USA</option>
+          <option value="another">another</option>
+        </select>
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:100px"></textarea>
+        <input type="submit" value="Submit" />
+      </form>
+    </div>
+  </section>
+  <!-- end section contact form -->
+  <!--footer-->
+  <footer>
+    <div class="social-network-icons">
+      <a href="https://www.instagram.com/alexandrasfartz/" target="_blank"><img
+          src="./img/alexandra-sfartz-instagram.png" alt="instagram-icon-alexandra-sfartz-portfolio" /></a>
+      <a href="https://www.facebook.com/sfartz/" target="_blank"><img src="./img/alexandra-sfartz-facebook.png"
+          alt="facebook-icon-alexandra-sfartz-portfolio" /></a>
+      <a href="./contact.html"><img src="./img/alexandra-sfartz-contact.png"
+          alt="contact-icon-alexandra-sfartz-portfolio" /></a>
+      <a href="https://github.com/alexandrasfartz" target="_blank"><img src="./img/alexandra-sfartz-github.png"
+          alt="github-icon-alexandra-sfartz-portfolio" /></a>
+      <a href="https://www.linkedin.com/in/alexandra-sfartz-46b8a7190/" target="_blank"><img
+          src="./img/alexandra-sfartz-linkedin.png" alt="linkedin-icon-alexandra-sfartz-portfolio" /></a>
+    </div>
+    <copyright>2019 Alexandra Sfartz.© All rights reserved.</copyright>
+  </footer>
+  <!--end footer-->
+  <!-- JAVASCRIPT -->
+  <!-- hamburger -->
+  <script src="./hamburger.js"></script>
+  <!-- particle js -->
+  <script type="text/javascript" src="./js/particles.js"></script>
+  <script type="text/javascript" src="./js/app.js"></script>
+</body>
+
+</html>

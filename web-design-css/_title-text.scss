@@ -1,0 +1,17 @@
+.title-text {
+  display: flexbox;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Lobster Two', Helvetica, sans-serif;
+  margin: 30px;
+
+  h1,
+  p {
+    text-align: center;
+    align-items: center;
+  }
+
+  p {
+    font-size: 20px;
+  }
+}
