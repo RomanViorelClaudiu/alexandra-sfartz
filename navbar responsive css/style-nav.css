@@ -19,7 +19,7 @@ nav {
 }
 
 nav .logo img {
-  height: 140px;
+  height: 100px;
   -webkit-transition: -webkit-transform 1s;
   transition: -webkit-transform 1s;
   transition: transform 1s;
