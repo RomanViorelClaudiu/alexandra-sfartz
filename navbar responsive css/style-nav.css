@@ -107,9 +107,9 @@ nav ul a:hover {
   .nav-links {
     position: fixed;
     right: 0px;
-    height: 85vh;
-    top: 15vh;
-    background-color: white;
+    height: 90vh;
+    top: 10vh;
+    background-color: red;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
