@@ -23,7 +23,7 @@ footer {
 }
 
 footer img {
-  height: 100px;
+  height: 80px;
   -webkit-transition: -webkit-transform 1s;
   transition: -webkit-transform 1s;
   transition: transform 1s;
@@ -71,9 +71,10 @@ section .gallery h1 {
   section .gallery img {
     display: none;
   }
-  section .gallery h1 {
+  section .gallery p {
     display: initial;
     text-align: center;
+    font-size: 16px;
   }
   footer .social-network-icons img {
     height: 60px;
