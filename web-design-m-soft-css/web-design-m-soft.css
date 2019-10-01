@@ -138,10 +138,6 @@ footer img:hover {
           transform: scale(1.1);
 }
 
-footer copyright {
-  font-family: 'Lobster Two', Helvetica, sans-serif;
-}
-
 @media screen and (max-width: 600px) {
   .title-text p {
     font-size: 16px;
