@@ -14,7 +14,6 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  font-family: 'Lobster Two', Helvetica, sans-serif;
   margin: 30px;
 }
 
@@ -143,7 +142,7 @@ footer img:hover {
     padding: 10px 18px;
   }
   main .container button.btn i {
-    font-size: 10px;
+    font-size: 8px;
   }
   footer .social-network-icons img {
     height: 60px;
