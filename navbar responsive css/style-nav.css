@@ -102,7 +102,7 @@ nav ul a:hover {
 
 @media screen and (max-width: 768px) {
   nav {
-    height: 150px;
+    height: 50px;
   }
   .nav-links {
     position: fixed;
@@ -137,7 +137,7 @@ nav ul a:hover {
   .hamburger {
     display: block;
     position: relative;
-    top: 50px;
+    top: 5px;
   }
 }
 
