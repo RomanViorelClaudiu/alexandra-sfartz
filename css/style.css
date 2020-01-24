@@ -64,12 +64,16 @@
 }
 
 .box-center .box .button img {
-  height: 100px;
+  height: 75px;
   cursor: pointer;
   -webkit-transition: -webkit-transform 1s;
   transition: -webkit-transform 1s;
   transition: transform 1s;
   transition: transform 1s, -webkit-transform 1s;
+  border: 2px solid black;
+  border-radius: 35px;
+  border-right: 10px;
+  border-left: 20px;
 }
 
 .box-center .box .button img:hover {

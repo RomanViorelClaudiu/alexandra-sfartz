@@ -35,9 +35,13 @@
     }
 
     .button img {
-      height: 100px;
+      height: 75px;
       cursor: pointer;
       transition: transform 1s;
+      border: 2px solid black;
+      border-radius: 35px;
+      border-right: 10px;
+      border-left: 20px;
 
       &:hover {
         transform: scale(1.1);
